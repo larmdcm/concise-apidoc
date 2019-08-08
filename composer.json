@@ -1,0 +1,25 @@
+{
+    "name": "cmdcm/concise-apidoc",
+    "description": "API document for concise-framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "larmdcm",
+            "email": "mdcm98@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.12"
+    },
+    "autoload":{
+        "psr-4": {
+            "RestDoc\\": "src"
+        }
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}

@@ -1,0 +1,8 @@
+/.idea
+/.vscode
+/vendor
+/concise-components
+/.git
+*.log
+.env/.idea
+composer.lock
